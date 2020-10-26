@@ -1,0 +1,67 @@
+# 定义一个书类
+class Book:
+    def __init__(self, page, length, width, name):
+        self.page = page  # 页属性
+        self.length = length  # 长属性
+        self.width = width  # 宽属性
+        self.name = name  # 书名属性
+
+    def read(self):
+        print("你已经读了很久的书了，要不歇会儿吧")
+
+    def tianshuqian(self, page1):
+        self.page1 = page1
+
+
+# 定义一个家类
+class Home:
+    def __init__(self):
+        desk = 1 # 家的桌子属性
+        chair = 3  # 家的椅子属性
+
+    # 家做饭的方法
+    def cook(self):
+        print("早饭已经做好啦")
+    # 家睡觉的方法
+    def sleep(self):
+        print("已经睡了很久啦，宝贝们")
+
+# 定义一个狗狗类
+class Dog :
+    def __init__(self, old, sex) :
+    # 狗狗的年纪
+    self.old = old
+    # 狗狗的性别
+    self.sex = sex
+
+    # 定义一个狗狗叫的方法
+    def wangwang(self):
+        print("汪汪汪")
+
+定义一个镜子类
+class Mirror :
+    def __init__(self, weight, shape ):
+        # 镜子有重量这个属性
+        self.weight = weight
+        # 镜子有形状的属性
+        self.shape  = shape
+    # 镜子有照镜子的方法
+    def look(self):
+        print("世界上怎么有这么帅的人呀")
+
+
+#定义一个手机类
+class MobilePhone :
+    def __init__(self, kind, price):
+        #手机的种类属性
+        self.kind = kind
+        #手机的价格属性
+        self.price = price
+
+    # 拨打电话的方法
+    def call(self):
+        print("您所拨打的电话已关机，请不要再拨")
+
+
+a = Book(10, 10, 10, 10)
+a.read()
