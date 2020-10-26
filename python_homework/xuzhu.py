@@ -11,6 +11,9 @@ class XuZhu(TongLao):
         print("罪过罪过")
 
 
-a = XuZhu(10, 10)
-a.fight_zms(10, 10)
-a.read()
+# 创建一个虚竹对象  
+a = XuZhu(10, 10)  
+# 调用父类童姥的方法  
+a.fight_zms(10, 10)  
+# 调用自己的方法  
+a.read()  
