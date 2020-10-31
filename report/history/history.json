@@ -1,0 +1,155 @@
+{
+  "66b7e178fdad86f23e732f146c32f32d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "208958c4f0ef9ca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604147532460,
+        "stop" : 1604147532461,
+        "duration" : 1
+      }
+    } ]
+  },
+  "c317e0592523f24a03ab719fe2cf8fa1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f680e99e8321b148",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604147532447,
+        "stop" : 1604147532447,
+        "duration" : 0
+      }
+    } ]
+  },
+  "351c04c7575057c62358aa4e97d835f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1cb9e2a93703735e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604147532484,
+        "stop" : 1604147532485,
+        "duration" : 1
+      }
+    } ]
+  },
+  "86d9aa6161aedace289a09bbb6a18ecb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29b0105b00547bc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604147532453,
+        "stop" : 1604147532454,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8dde2452125b8de50de8825fcf041216" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c97f8e9320725d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604147532467,
+        "stop" : 1604147532467,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3490f7fcac9819c2a2fa6bf7ca5c421e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2472b2df9c9a9427",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604147532272,
+        "stop" : 1604147532273,
+        "duration" : 1
+      }
+    } ]
+  },
+  "b6d9d1b4ca702d6cb685d69c031a876a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afa172f45ce10423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604147532262,
+        "stop" : 1604147532263,
+        "duration" : 1
+      }
+    } ]
+  },
+  "73af5ff388028f07c1abe6baa1e296d3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdd3d7ed2dcb2285",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert -1 == 1\n +  where -1 = <bound method Calc.mul of <test_pytest.core.calc.Calc object at 0x02D82BC8>>(1, -1)\n +    where <bound method Calc.mul of <test_pytest.core.calc.Calc object at 0x02D82BC8>> = <test_pytest.core.calc.Calc object at 0x02D82BC8>.mul\n +      where <test_pytest.core.calc.Calc object at 0x02D82BC8> = <test_pytest.tests.test_calc.TestCalc object at 0x02D821C0>.calc",
+      "time" : {
+        "start" : 1604147532283,
+        "stop" : 1604147532284,
+        "duration" : 1
+      }
+    } ]
+  }
+}

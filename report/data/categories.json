@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert -1 == 1\n +  where -1 = <bound method Calc.mul of <test_pytest.core.calc.Calc object at 0x02D82BC8>>(1, -1)\n +    where <bound method Calc.mul of <test_pytest.core.calc.Calc object at 0x02D82BC8>> = <test_pytest.core.calc.Calc object at 0x02D82BC8>.mul\n +      where <test_pytest.core.calc.Calc object at 0x02D82BC8> = <test_pytest.tests.test_calc.TestCalc object at 0x02D821C0>.calc",
+      "children" : [ {
+        "name" : "test_mul[1--1-1]",
+        "uid" : "cdd3d7ed2dcb2285",
+        "parentUid" : "5a91093ff0b3c477a5ebb6269f566ee9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604147532283,
+          "stop" : 1604147532284,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "-1", "1" ]
+      } ],
+      "uid" : "5a91093ff0b3c477a5ebb6269f566ee9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

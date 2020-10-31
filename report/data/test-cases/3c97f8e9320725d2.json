@@ -1,0 +1,95 @@
+{
+  "uid" : "3c97f8e9320725d2",
+  "name" : "test_div[0-0]",
+  "fullName" : "test_pytest.tests.test_calc.TestCalc#test_div",
+  "historyId" : "8dde2452125b8de50de8825fcf041216",
+  "time" : {
+    "start" : 1604147532467,
+    "stop" : 1604147532467,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1604147532256,
+      "stop" : 1604147532256,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1604147532486,
+      "stop" : 1604147532486,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test-api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_pytest.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "Think-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest.tests.test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c97f8e9320725d2.json",
+  "parameterValues" : [ "0", "0" ]
+}

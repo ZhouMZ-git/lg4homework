@@ -1,8 +1,10 @@
+import allure
 import pytest
 
 from test_pytest.core.calc import Calc
 
 
+@allure.feature('TestCalc')
 class TestCalc:
     def setup_class(self):
         self.calc = Calc()
@@ -17,6 +19,7 @@ class TestCalc:
     ])
     def test_mul(self, a, b, c):
         assert self.calc.mul(a, b) == c
+
         # assert calc.mul(-1, -1) == 1
         # assert calc.mul(1, -1) == 1
 
@@ -28,6 +31,15 @@ class TestCalc:
     ])
     def test_div(self, a, b, c):
         assert self.calc.div(a, b) == c
+
+    @pytest.mark.parametrize("a,b", [
+        [3, 10]
+
+    ])
+    # 精度测试
+    def test_jingdu(self, a, b):
+        if self.calc.div(a, b) != 0:
+            assert self.calc.div(a, b) >= round(a / b, 4)
 
     # 异常值例子
     @pytest.mark.parametrize('a, b', [
@@ -41,7 +53,7 @@ class TestCalc:
 
     # 流程示例
     def test_process(self):
-        r1=self.calc.mul(1, 2)
-        r2=self.calc.div(2, 1)
+        r1 = self.calc.mul(1, 2)
+        r2 = self.calc.div(2, 1)
         assert r1 == 2
         assert r2 == 2

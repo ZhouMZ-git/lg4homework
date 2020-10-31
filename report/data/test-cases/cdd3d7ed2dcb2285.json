@@ -1,0 +1,104 @@
+{
+  "uid" : "cdd3d7ed2dcb2285",
+  "name" : "test_mul[1--1-1]",
+  "fullName" : "test_pytest.tests.test_calc.TestCalc#test_mul",
+  "historyId" : "73af5ff388028f07c1abe6baa1e296d3",
+  "time" : {
+    "start" : 1604147532283,
+    "stop" : 1604147532284,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert -1 == 1\n +  where -1 = <bound method Calc.mul of <test_pytest.core.calc.Calc object at 0x02D82BC8>>(1, -1)\n +    where <bound method Calc.mul of <test_pytest.core.calc.Calc object at 0x02D82BC8>> = <test_pytest.core.calc.Calc object at 0x02D82BC8>.mul\n +      where <test_pytest.core.calc.Calc object at 0x02D82BC8> = <test_pytest.tests.test_calc.TestCalc object at 0x02D821C0>.calc",
+  "statusTrace" : "self = <test_pytest.tests.test_calc.TestCalc object at 0x02D821C0>, a = 1, b = -1, c = 1\n\n    @pytest.mark.parametrize('a, b, c', [\n        [1, 2, 2],\n        [-1, -1, 1],\n        [1, -1, 1]\n    ])\n    def test_mul(self, a, b, c):\n>       assert self.calc.mul(a, b) == c\nE       assert -1 == 1\nE        +  where -1 = <bound method Calc.mul of <test_pytest.core.calc.Calc object at 0x02D82BC8>>(1, -1)\nE        +    where <bound method Calc.mul of <test_pytest.core.calc.Calc object at 0x02D82BC8>> = <test_pytest.core.calc.Calc object at 0x02D82BC8>.mul\nE        +      where <test_pytest.core.calc.Calc object at 0x02D82BC8> = <test_pytest.tests.test_calc.TestCalc object at 0x02D821C0>.calc\n\ntest_pytest\\tests\\test_calc.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1604147532256,
+      "stop" : 1604147532256,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1604147532486,
+      "stop" : 1604147532486,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test-api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_pytest.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "Think-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest.tests.test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "-1"
+  }, {
+    "name" : "c",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cdd3d7ed2dcb2285.json",
+  "parameterValues" : [ "1", "-1", "1" ]
+}
